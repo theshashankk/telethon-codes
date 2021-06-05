@@ -2,7 +2,7 @@
 
 # #1 telethon code:
 
-```
+```python
 from telethon import TelegramClient
 
 #ploxx___use___your___own___apiid and hash 
@@ -19,7 +19,7 @@ from TelegramClient('anons', api_id, api_hash) as client:
 
 # #2 telethon code
 
-```
+```python
 from telethom.sync import TelegramClient
 
 api_id = your api id 
