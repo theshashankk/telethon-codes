@@ -16,3 +16,17 @@ from TelegramClient('anons', api_id, api_hash) as client:
 #$cd locate your file location
 #$python3 filename.py
 ```
+
+# #2 telethon code
+
+```
+from telethom.sync import TelegramClient
+
+api_id = your api id 
+api_hash = "your api hash"
+bot_token = "your bot token"
+
+bot = TelegramClient('bot_token', api_id, api_hash).start(bot_token=bot_token)
+with bot:
+    ...
+```
